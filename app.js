@@ -1,8 +1,8 @@
 function cargarUsuarios() {
     const users = [
         { nombre: "Kai", Puesto: "Chef principal", imagen: "assets/kai.png" },
-        { nombre: "Yang y Garrapato", Puesto: "Yang ayudante de kai<br>Garrapato practicante", imagen: "assets/yang_garrapato.png" },
-        { nombre: "Ying", Puesto: "Ying ayudante de kai", imagen: "assets/yin.png" },
+        { nombre: "Yang y Garrapato", Puesto: "Yang: ayudante de Kai<br>Garrapato: practicante", imagen: "assets/yang_garrapato.png" },
+        { nombre: "Ying", Puesto: "Ayudante de Kai", imagen: "assets/yin.png" },
         { nombre: "Nito", Puesto: "Especialista en chocolate", imagen: "assets/nito.png" },
         { nombre: "Mamadzila", Puesto: "Experta decoradora", imagen: "assets/mamadzila.png" }
     ];
