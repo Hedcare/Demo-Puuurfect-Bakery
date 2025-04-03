@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purrfect Bakery</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="header">
+        <img class="Imagen_bienvenida" src="/assets/imagen_inicio.jpg" alt="Logo de tienda">
+        <nav class="header__menu" aria-label="Navegación principal">
+            <button id="toggle-sidebar" aria-controls="sidebar" aria-expanded="false">☰</button>
+            <aside id="sidebar" aria-hidden="true">
+            <ul>
+                <li><a class="sub-nav" href="index.html">Inicio</a></li>
+                <li><a class="sub-nav" href="chefs.html">Chefs</a></li>
+                <li><a class="sub-nav" href="https://www.facebook.com/share/15nxDZdvYm/">Facebook</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <aside class="Barra_lateral">
+            <nav aria-label="Navegación secundaria">
+                <ul>
+                    <li><a href="#">Estamos contratando!</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#">Reporte de problemas</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+         
+        <section>
+            <h2 class="Presentación_titulo">Nuestros integrantes principales:</h2>
+            <div id="user-container" class="grid grid-cols-1 md:grid-cols-3 gap-6">  
+            </div>
+            <script src="app.js"></script>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado por Hedcaré Del Castillo</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+    background-color: peachpuff;
+    color: black;
+}
+
+.Imagen_bienvenida{
+    width: 5%;
+}
+
+.header{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.header__menu ul {
+    display: flex;  
+    flex-direction: row;  
+    gap: 20px;  
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sub-nav {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+#toggle-sidebar {
+    font-size: 24px; 
+    width: 100%; 
+    height: 100%; 
+    cursor: pointer;
+}
+
+.Presentación_titulo{
+text-align: center;
+align-items: center;
+font-size: 1.5rem;
+font-weight: 600;
+}
+
+.footer{
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.user-card1 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.user-card2 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.user-card2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 90%;
+    margin-bottom: 10px;
+}
+.Imagen_Presentación{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.Presentacion{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+}
+@media screen and (max-width: 768px) {
+    .header__menu {
+        display: none; 
+    }
+#sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#sidebar.visible {
+    left: 0; 
+}
+}
