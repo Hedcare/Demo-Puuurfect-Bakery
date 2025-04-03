@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <img class="Imagen_bienvenida" src="/assets/imagen_inicio.jpg" alt="Logo de tienda">
+        <img class="Imagen_bienvenida" src="assets/imagen_inicio.jpg" alt="Logo de tienda">
         <nav class="header__menu" aria-label="Navegación principal">
             <button id="toggle-sidebar" aria-controls="sidebar" aria-expanded="false">☰</button>
             <aside id="sidebar" aria-hidden="true">
@@ -23,33 +23,31 @@
 
     <main>
         <!-- Barra lateral -->
-        <aside class="Barra_lateral">
+        <aside class="Barra_lateral pl-3">
             <nav aria-label="Navegación secundaria">
                 <ul>
-                    <li><a href="#">Estamos contratando!</a></li>
-                    <li><a href="#">Contactanos</a></li>
-                    <li><a href="#">Reporte de problemas</a></li>
+                    <li><a href="#">¡Estamos contratando!</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Reportar un problema</a></li>
                 </ul>
             </nav>
         </aside>
 
         <!-- Contenido principal -->
         <section class="Presentacion">
-            <h2 class="Presentación_titulo">Bienvenidos a nuestra reposteria</h2>
-            <p>Somos la repostería donde encontrarás los postres Purrfectamente dulces, Purrfectamente deliciosos</p>
-            <img class="Imagen_Presentación" src="/assets/imagen_presentacion.jpg" alt="Imagen de Presentación">
+            <h2 class="Presentación_titulo">¡Bienvenidos a nuestra repostería! :3</h2>
+            <p class="mb-5">Somos la repostería donde encontrarás los postres purrfectamente dulces, ¡purrfectamente deliciosos!</p>
+            <img class="Imagen_Presentación" src="assets/imagen_presentacion.jpg" alt="Imagen de Presentación">
         </section>
 
         <section>
-            <h2 class="Presentación_titulo">Conoce nuestro catálogo</h2>
+            <h2 class="Presentación_titulo mb-5">¡Conoce nuestro catálogo!</h2>
             <div id="catalogo-container" class="grid grid-cols-1 md:grid-cols-3 gap-6">  
             </div>
             <script src="app.js"></script>
         </section>
     </main>
 
-    <footer class="footer">
-        <p>Desarrollado por Hedcaré Del Castillo</p>
-    </footer>
+    <main class="mb-20"></main>
 </body>
 </html>

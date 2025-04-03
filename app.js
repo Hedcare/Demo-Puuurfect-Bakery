@@ -28,12 +28,12 @@ setTimeout(cargarUsuarios, 1000);
 
 function cargarPostres() {
     const postres = [
-        { nombre: "Pastel Galleta", Precio: "35 pesos", imagen: "assets/pastel_galleta.jpg" },
-        { nombre: "Pastel 3 leches con chispas de chocolate", Precio: "35 pesos", imagen: "assets/pastel_tres_leches.jpg" },
-        { nombre: "Carlota de fresa", Precio: "30 pesos", imagen: "assets/carlota_fresa.jpg" },
-        { nombre: "Carlota de durazno", Precio: "30 pesos", imagen: "assets/carlota_durazno.jpg" },
-        { nombre: "Queso napolitano", Precio: "35 pesos", imagen: "assets/queso.jpg" },
-        { nombre: "Gelatina mosaico", Precio: "20 pesos", imagen: "assets/gelatina.jpg" }
+        { nombre: "Pastel de galleta", Precio: "$35", imagen: "assets/pastel_galleta.jpg" },
+        { nombre: "Pastel de 3 leches con chispas de chocolate", Precio: "$35", imagen: "assets/pastel_tres_leches.jpg" },
+        { nombre: "Carlota de fresa", Precio: "$30", imagen: "assets/carlota_fresa.jpg" },
+        { nombre: "Carlota de durazno", Precio: "$30", imagen: "assets/carlota_durazno.jpg" },
+        { nombre: "Queso napolitano", Precio: "$35", imagen: "assets/queso.jpg" },
+        { nombre: "Gelatina mosaico", Precio: "$20", imagen: "assets/gelatina.jpg" }
     ];
 
     const container = document.getElementById("catalogo-container");
